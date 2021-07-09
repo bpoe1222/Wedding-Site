@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+img  {
+	text-align: center;
+	height: 750px;
+	width: 1250px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid black 1px;
+	border-radius: 1000px;
+	position: relative;
+}
+.centered {
+	position: absolute;
+  	top: 45%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	color: #FFF;
+	font-size: 50px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.head {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}
+li {
+	text-align: center;
+}
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+body {
+	background-image: url("Wedding Site Background.jpg");
+	background-position: fixed;
+}
+.header{
+	color: #108CA6;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 30px;
+	border-radius: 16px;
+}
+a:link {
+	color: #108CA6;
+}
+a:active {
+	color:#108CA6; 
+}
+a:hover {
+	color: #FFF;
+}
+h1, h4 {
+	color: #FFF;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.text, .disclaimer {
+	color: #FFF;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 20px;
+	text-align:center;
+}
+footer {
+	text-align: center;
+	color: #108CA6;
+	font-size: 15px;
+}
+.center {
+	text-align: center;
+	color: #108CA6;
+}
+.head-text {
+	font-size: 40px;
+}
+li {
+	padding-top: 3px
+}
+.cred {
+	font-size: 12px;
+}
+.contact-info {
+	color: #FFF;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 15px;
+}
+.schedule-text {
+	color: #FFF;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 20px;
+	text-align: center;
+}
+.footer {
+	color: #108CA6;
+	text-align: center;
+}
+.center-text {
+	text-align: center;
+}
+main h1 {
+	text-align: center;
+}
